@@ -4,12 +4,13 @@
 
 ## Usage ##
 It's highly recommended to use **centr** as mentionned below:
-		$(window).load(function() {
-			$("#element").centr(); // Default
-			$(".element").centr({
-				to : 'parent' // to parameter accepts "viewport" (default) or "parent".
-			});
-		});	
+
+	$(window).load(function() {
+		$("#element").centr(); // Default
+		$(".element").centr({
+			to : 'parent' // to parameter accepts "viewport" (default) or "parent".
+		});
+	});	
 
 
 ## TODO ##
