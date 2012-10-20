@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Centr jQuery Plugin Demo</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js" ></script>
+		<!--<script type="text/javascript" src="jquery.boilerplate.js" ></script>-->
+		<script type="text/javascript" src="../jquery.centr.js" ></script>
+		<script type="text/javascript">
+		$(window).load(function() {
+			$("#test").centr();
+			$(".test2").centr({
+				to : 'parent'
+			});
+		});	
+		</script>
+		<style type="text/css">
+			
+			#test {
+				width: 600px;
+				height: 500px;
+				background: #626262;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="test">
+			<img src="http://static.jquery.com/files/rocker/images/logo_jquery_215x53.gif" class="test2" alt="">
+		</div>
+	</body>
+</html>
