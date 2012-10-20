@@ -4,7 +4,7 @@
 
 ## Usage ##
 It's highly recommended to use **centr** as mentionned below:
->		$(window).load(function() {
+		$(window).load(function() {
 			$("#element").centr(); // Default
 			$(".element").centr({
 				to : 'parent' // to parameter accepts "viewport" (default) or "parent".
@@ -15,3 +15,7 @@ It's highly recommended to use **centr** as mentionned below:
 ## TODO ##
 
 * Add Window resize event support
+
+## License ##
+
+Centr is licensed under [MIT](https://github.com/iyadh/Centr/blob/master/MIT-LICENSE.txt).
