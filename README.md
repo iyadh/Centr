@@ -13,9 +13,9 @@ It's highly recommended to use **centr** as mentionned below:
 	});	
 
 
-## TODO ##
+## What's new? ##
 
-* Add Window resize event support
+* Window resize event support added
 
 ## License ##
 
